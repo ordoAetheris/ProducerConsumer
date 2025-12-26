@@ -23,6 +23,8 @@ package com.ordoAetheris.drafts.task;
  ни одного lost item
  ни одного duplicate item
  никакого вечного ожидания после close()
+
+ Реальные аналоги этого всего - Kafka, RabbitMQ, LinkedBlockingQueue,ArrayBlockingQueue
  // */
 public class WorkQueue<T> {
     public void put(T t) {}
